@@ -4,10 +4,9 @@ import java.util.Scanner;
 
 public class Main1 {
 
-    public int solution(String str, Character searchChar){
+    public int solution(String str, char searchChar){
         int result = 0;
         String small = str.toLowerCase();
-        char target = Character.toLowerCase(searchChar);
         for(char c : small.toCharArray()){
             if(Character.toLowerCase(searchChar) == c){
                 result++;
