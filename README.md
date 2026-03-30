@@ -17,7 +17,8 @@
 
 ## 📊 풀이 현황
 
-`https://github-readme-streak-stats-eight.vercel.app?user=alex-1676&theme=tokyonight&hide_border=true`
+
+![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=alex-1676&theme=tokyonight&hide_border=true)
 
 
 ---
