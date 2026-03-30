@@ -13,15 +13,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # 전체 커밋 히스토리를 가져옴
+          fetch-depth: 0
 
       - name: Run update script
         run: python3 update_readme.py
 
       - name: Commit and push
         run: |
-          git config user.name "hoyoung"
-          git config user.email "a01066651676@gmail.com"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git pull --rebase origin main
           git add README.md
           git diff --cached --quiet || git commit -m "[AUTO] README 업데이트"
