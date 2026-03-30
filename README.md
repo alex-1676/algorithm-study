@@ -17,7 +17,7 @@
 
 ## 📊 풀이 현황
 
-![커밋 히트맵](https://ghchart.romcal.io/alex-1676)
+`https://github-readme-streak-stats-eight.vercel.app?user=alex-1676&theme=tokyonight&hide_border=true`
 
 
 ---
