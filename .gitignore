@@ -28,3 +28,13 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# 1. IntelliJ 관련 제외
+.idea/
+*.iml
+
+# 2. src 폴더 자체는 무시
+src/
+
+# 3. 그런데 src 내부는 다시 허용
+!src/**
