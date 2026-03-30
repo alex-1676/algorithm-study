@@ -19,7 +19,7 @@ pgs = sum(1 for l in lines if "[PGS]" in l)
 # [INF] 태그가 있거나, 숫자로 시작하는 커밋은 인프런으로 카운트
 # git log --oneline 형식: "커밋해시 메시지" 이므로
 # 메시지 부분만 추출해서 확인
-inf = sum(1 for l in lines if "[INF]" in l or re.search(r'\s\d+\.', l))
+inf = sum(1 for l in lines if "[INF]" in l or re.search(r'\d+\.', l.split(' ', 1)[-1]))
 
 total = boj + pgs + inf
 
