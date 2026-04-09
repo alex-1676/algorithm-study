@@ -27,6 +27,7 @@ public class Main8_1 {
         }
         return result;
     }
+
     public static void main(String[] args) {
         Main8_1 m = new Main8_1();
         Scanner in = new Scanner(System.in);
