@@ -1,0 +1,49 @@
+package Inflearn_study.math;
+
+import java.util.*;
+
+public class Main11 {
+
+    public int solution (int n, String[] strs) {
+       int[][] nums = new int[n][5];
+
+       //값 넣기
+       for(int i = 0 ; i < n ; i++) {
+           String[] splitNum = strs[i].split(" ");
+           for(int j = 0 ; j < 5 ; j++) {
+                nums[i][j] = Integer.parseInt(splitNum[j]);
+           }
+       }
+
+        int student = 0;
+        int standardCnt = 0;
+        int cnt = -5;
+       for(int i = 0 ; i < n ; i++) {
+           for(int j = 0 ; j < 5 ; j++) {
+               int standard = nums[i][j];
+               for(int k = 0 ; k < n ; k++) {
+                    if(standard == nums[k][j]) cnt++;
+               }
+           }
+           if(cnt > standardCnt) {
+               standardCnt = cnt;
+               student = i+1;
+           }
+           cnt = -5;
+       }
+       return student;
+    }
+    public static void main (String[] args) {
+        Main11 m = new Main11();
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        in.nextLine();
+        String[]strs = new String[n];
+
+        for(int i = 0 ; i < n ; i++) {
+            strs[i] = in.nextLine();
+        }
+        System.out.println(m.solution(n , strs));
+    }
+
+}
