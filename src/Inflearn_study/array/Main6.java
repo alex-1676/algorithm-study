@@ -20,6 +20,7 @@ public class Main6 {
                 cnt --;
                 rt++;
                 length++;
+
             }else if(numbers[rt] == 0 && cnt == 0) {
 
                 if(numbers[lt] == 0) {
