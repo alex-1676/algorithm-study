@@ -13,7 +13,7 @@ public class Main2 {
 
         for(int i = 0 ; i < firstAry.length ; i++) {
             map.put(firstAry[i],map.getOrDefault(firstAry[i],0)+1);
-            map.put(secondAry[i],map.getOrDefault(secondAry[i],0)+1);
+            map2.put(secondAry[i],map2.getOrDefault(secondAry[i],0)+1);
         }
         if(map.equals(map2)) {
             return "YES";
