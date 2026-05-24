@@ -4,8 +4,8 @@ import java.io.*;
 
 public class Main7 {
     public String solution (String standard , String classes) {
-        String[] stand = standard.split(" ");
-        String[] classes2 = classes.split(" ");
+        String[] stand = standard.split("");
+        String[] classes2 = classes.split("");
         Deque <String> deque = new ArrayDeque<>();
         for(String c : stand) {
             deque.offerLast(c);
