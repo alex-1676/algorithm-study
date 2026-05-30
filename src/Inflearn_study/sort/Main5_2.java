@@ -11,6 +11,7 @@ public class Main5_2 {
             if(!set.add(a)) return "D";
         }
         return "U";
+
     }
     public static void main (String[] args) throws Exception {
         Main5_2 m = new Main5_2();
