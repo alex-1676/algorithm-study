@@ -30,8 +30,6 @@ public class Main1 {
         }
         return cnt;
     }
-
-
     public static void main(String[] args) throws Exception {
         Main1 m = new Main1();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
