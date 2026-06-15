@@ -4,7 +4,6 @@ import java.util.*;
 import java.io.*;
 
 public class Main1 {
-
     public int solution(int now, int destination) {
         int cnt = 0;
         Deque<Integer> dq = new ArrayDeque<>();
