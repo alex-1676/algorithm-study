@@ -15,6 +15,7 @@ public class Practice2 {
         }
         dfs(index + 1);
 
+
     }
     public static void main(String[] args) throws Exception{
         Practice2 p = new Practice2();
