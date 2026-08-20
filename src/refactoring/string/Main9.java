@@ -1,6 +1,5 @@
-package refactoring;
+package refactoring.string;
 import java.io.*;
-import java.util.*;
 
 public class Main9 {
     public int solution (String str) {

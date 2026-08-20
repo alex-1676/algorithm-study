@@ -1,7 +1,7 @@
-package refactoring;
+package refactoring.string;
 
 import java.io.*;
-import java.util.*;
+
 public class Main2 {
 
     public String solution (String str) {

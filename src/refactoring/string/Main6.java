@@ -1,4 +1,4 @@
-package refactoring;
+package refactoring.string;
 import java.io.*;
 import java.util.*;
 

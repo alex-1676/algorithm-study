@@ -1,5 +1,4 @@
-package refactoring;
-import java.util.*;
+package refactoring.string;
 import java.io.*;
 
 public class Main1 {

@@ -1,6 +1,5 @@
-package refactoring;
+package refactoring.string;
 
-import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 

@@ -1,7 +1,5 @@
-package refactoring;
+package refactoring.string;
 import java.io.*;
-import java.sql.SQLOutput;
-import java.util.*;
 
 public class Main8 {
     public String solution (String str) {

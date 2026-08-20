@@ -1,6 +1,5 @@
-package refactoring;
+package refactoring.string;
 import java.io.*;
-import java.util.*;
 
 public class Main12 {
     public String solution (int size , String str) {

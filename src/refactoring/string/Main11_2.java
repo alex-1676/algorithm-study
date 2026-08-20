@@ -1,7 +1,6 @@
-package refactoring;
+package refactoring.string;
 
 import java.io.BufferedReader;
-import java.util.StringTokenizer;
 
 public class Main11_2 {
     public String solution (String str) {
