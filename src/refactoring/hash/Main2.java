@@ -12,7 +12,7 @@ public class Main2 {
 
         for(char c : chs2) {
             map.put(c,map.getOrDefault(c,0)-1);
-            if(map.get(c) == 0) {
+            if(map.get(c) < 0) {
                 map.remove(c);
             }
         }
